@@ -1,0 +1,138 @@
+* {
+    font-family: 'Orbitron', sans-serif; 
+}
+
+:root {
+    --colorBlue: rgb(43,157,244); 
+}
+
+.text-me {
+    color: var(--colorBlue)
+}
+
+/* navbar */
+.navbar-custom {
+    border-bottom: 2px solid white;
+}
+
+/* header */
+
+.header-custom {
+    background: linear-gradient( rgba(0, 0, 0, 0),rgb(0, 0, 0, 1)), url(./media/moon.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section-h1-custom {
+    position: relative;
+}
+
+.section-iconheader-custom {
+    position: absolute;
+    top: 90vh;
+}
+
+/* main */
+.card-number-section {
+    min-height: 8vh;
+    width: max-content;
+    border-bottom: 2px solid var(--colorBlue);
+}
+
+.row-cardnumber-custom {
+    min-height: 30vh;
+}
+
+.container-paragraph-custom {
+    background: url(./media/moon2.jpg);
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+
+.lorem-p-custom {
+    border-top: 2px solid var(--colorBlue);
+}
+
+.section-missile-custom {
+    height: fit-content;
+}
+
+.row2-custom {
+    height: 200vh;
+}
+
+.section2-custom {
+    background-image: url(./media/missile-2027068_1280.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+}
+
+
+
+.button-custom {
+    background-color: transparent;
+    border: 3px solid var(--colorBlue);
+    color: white;
+    min-height: 32px;
+    width: 80px;
+    position: relative;
+}
+
+.button-custom::before {
+    content: '';
+    min-height: 34px;
+    width: 60px;
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    background-color: transparent;
+    position: absolute;
+    bottom: -0.5vh;
+    left: 12%;
+}
+
+.button-custom::after {
+    content: '';
+    min-height: 20px;
+    width: 82px;
+    border-top: 0px solid transparent ;
+    border-bottom: 0px solid transparent;
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0.3vh;
+    left: -6%;
+}
+
+/* footer */
+
+.span-icon {
+    height: 7vh;
+}
+
+.row-footer-custom {
+    min-height: 70vh;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(0.25turn, black,rgb(43,157,244), black);
+    border-image-slice: 5;
+    padding-bottom: 7px;
+}
+
+.div-footer-custom {
+    min-height: 60vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
+}
+
+.container-footer-custom {
+    min-height: 5vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url(./media/sunrise-1765027_1920.jpg);
+    background-position: center;
+
+  
+}
